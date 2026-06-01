@@ -30,3 +30,13 @@ a { text-decoration: none; color: inherit; }
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--navy); }
 ::-webkit-scrollbar-thumb { background: var(--blue3); border-radius: 3px; }
+
+/* Navbar responsive */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .hamburger {
+    display: block !important;
+  }
+}
