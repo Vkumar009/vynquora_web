@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         {[
           { title:'Services', links:[{name:'Data Entry', url:'#'},{name:'Data Verification', url:'#'},{name:'Document Processing', url:'#'},{name:'Medical Data', url:'#'},{name:'Reporting', url:'#'}] },
-          { title:'Company', links:[{name:'About Us', url:'#'},{name:'Our Process', url:'#'},{name:'Careers', url:'#'},{name:'Contact', url:'#contact'}] },
+          { title:'Company', links:[{name:'About Us', url:'#'},{name:'Our Process', url:'#'},{name:'Careers', url:'/careers'},{name:'Contact', url:'#contact'}] },
           { 
             title:'Connect', 
             links:[

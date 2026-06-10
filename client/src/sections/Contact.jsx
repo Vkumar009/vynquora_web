@@ -16,7 +16,7 @@ export default function Contact() {
     // BACKEND_URL variable banayein jo local me localhost aur production me custom domain use karega
     const BACKEND_URL = window.location.hostname === 'localhost' 
       ? 'http://localhost:5000' 
-      : 'https://vynquora.com' // (Yahan host hone ke baad aapka live backend URL aayega)
+      : 'vynquora-backend.vercel.app' // (Yahan host hone ke baad aapka live backend URL aayega)
 
     try {
       // Yahan ab poora URL call hoga: http://localhost:5000/api/contact
